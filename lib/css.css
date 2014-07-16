@@ -1,0 +1,51 @@
+body {
+	background-attachment: fixed;
+	background-color: white;
+	background-image:url('resources/mountainBlur.png');
+}
+.head{
+	height:100px;
+	width: 800px;
+	t-align:center;
+	color:black;
+	margin-left: auto ;
+	margin-right: auto ;
+}
+.Cal {
+	width: 800px ;
+	margin-left: auto ;
+	margin-right: auto ;
+	bourder-radius: 15px;
+}
+#buffer{
+	margin-top:auto;
+	margin-bottom:auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* Post css */
+
+#post{
+	background-color:white;
+	margin-bottom: 16px;
+	padding:16px;
+	-webkit-border-radius: 32px;
+	-moz-border-radius: 32px;
+	border-radius: 32px;
+}
+
+#postLink{
+	text-align: center;
+}
+
+#postLink iframe,img{
+	height:360px;
+	width:640px;
+	max-width: 100%;
+}
+
+#postTime{
+	right:0px;
+	margin-right:0px;
+}
